@@ -1,0 +1,82 @@
+@import url("https://fonts.googleapis.com/css?family=Helvetica+Neue&display=swap");
+
+body {
+  font-family: "Helvetica Neue", sans-serif;
+}
+
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+.btn {
+  padding: 10px;
+  background-color: #c8c8c8;
+  color: #000000;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  margin: 10px 5px 10px 0;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+  border: 1px solid #ddd;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+th {
+  background-color: #c8c8c8;
+  color: #151515;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+
+tr:hover {
+  background-color: #ddd;
+}
+
+.btn:hover {
+  background-color: #878787;
+}
+
+.form-group {
+  margin-bottom: 1rem;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+form {
+  margin-top: 10px;
+}
+input[type="text"] {
+  display: block;
+  min-width: 50%;
+  padding: 0.375rem 0.75rem;
+  font-size: 12px;
+  line-height: 1.5;
+  color: #495057;
+  background-color: #fff;
+  background-clip: padding-box;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+  transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+  height: 20px; /* ukuran tinggi input field */
+  margin-bottom: 10px; /* jarak margin antar input field */
+}
+
+input[type="text"]:focus {
+  border-color: #80bdff;
+  box-shadow: 0 0 0 0.2rem rgba(0, 123, 255, 0.25);
+}
