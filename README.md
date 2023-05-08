@@ -1,27 +1,7 @@
-# EmployeeView
-
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 16.0.0.
-
-## Development server
-
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
-
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Langkah-langkah menjankan program:
+1. Pastikan Node.js dan Angular CLI sudah terpasang pada komputer Anda. Jika belum, Anda dapat mengunduhnya dari website resmi Node.js dan Angular CLI.
+2. Buka terminal atau command prompt pada komputer Anda.
+3. Navigasi ke direktori aplikasi Angular menggunakan perintah cd.
+4. Jalankan perintah ng serve --port 4200 untuk menjalankan aplikasi. Jika aplikasi dikonfigurasi dengan benar, aplikasi akan berjalan di port yang sudah ditentukan, dalam hal ini port 4200.
+5. Buka browser Anda dan masukkan alamat http://localhost:4200 untuk mengakses aplikasi yang telah berjalan di port 4200.
+6. Pastikan dijalankan di port 4200 karena mekanisme keamanan cors untuk mengakses api hanya dibatasi melalui http://localhost:4200, dan juga pastikan program untuk api sudah dijalankan di port 3000
